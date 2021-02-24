@@ -7,15 +7,100 @@
        
       <style>
        
+          * {margin: 0; padding: 0; }
+          header {background: rgba(0,0,0,.25); display: flex; justify-content:  space-between; margin-bottom: 10px;}
+          #logo {
+              width: 100px;
+              height: 50px;
+              background: rgba(0,0,0,.25)
+          }
           
+          nav {
+
+
+          }
+          
+          nav ul li {
+              display: inline;
+              
+          }
+        #hero {background: rgba(0,0,0,.25); display: flex; justify-content: center; margin-bottom: 10px;}
+          
+          
+        .herogfx {background: rgba(0,0,0,.25); }
+          .herogfx img {
+              width: 100%;
+          }
+        .heroheading {margin: 0 0 10px 10px;}
+        .herobutton {background: rgba(0,0,0,.25); width: 50%; text-align: center; border-radius: 10px; padding: 10px; margin: 0 auto;}
+        #articles { display: flex;  justify-content: center; margin-bottom: 1em;}
+          .articleContainer {
+              background: rgba(0,0,0,.25);
+              width: 300px;
+              margin: 0 1em;
+          }
+          .articleContainer img {
+              width: 100%;
+          }
+        footer {background: rgba(0,0,0,.25); height: 50px; text-align: center;}
        
       </style>
        
    </head>
     
    <body>
-      
+      <header>
+       <div id="logo"><img src="https://via.placeholder.com/100x100"></div>
+          <nav>
+          <ul>
+            <li><a href="#" >Menu Item </a></li>           
+            <li><a href="#" >Menu Item </a></li>           
+            <li><a href="#" >Menu Item </a></li>           
+              
+         </ul>
+          
+          </nav>
        
+       </header>
+       <section id="hero">
        
+       <div class="herogfx"><img src="https://via.placeholder.com/500x500">
+           </div>
+           
+           <div style="display: flex; flex-direction: column; justify-content: center ">
+        <div class="heroheading"><h1>Lorem Ipsum is simply dummy text</h1></div>
+        <div class="herobutton">Hero button</div>
+       </div>
+       </section>
+       <section id="articles">
+       <div class="articleContainer">
+           <img src="https://via.placeholder.com/300x200">
+           <h2>Article Title</h2>
+           <p>Lorem Ipsum is simply dummy text</p>
+           </div>
+       <div class="articleContainer">
+           <img src="https://via.placeholder.com/300x200">
+           <h2>Article Title</h2>
+           <p>Lorem Ipsum is simply dummy text</p>
+           </div>
+       <div class="articleContainer">
+           <img src="https://via.placeholder.com/300x200">
+           <h2>Article Title</h2>
+           <p>Lorem Ipsum is simply dummy text</p>
+           </div>          
+       
+       </section>
+       <footer>
+       
+                 <nav>
+          <ul>
+            <li><a href="#" >Menu Item </a></li>           
+            <li><a href="#" >Menu Item </a></li>           
+            <li><a href="#" >Menu Item </a></li>           
+              
+         </ul>
+          
+          </nav>
+       </footer>
    </body>
 </html>
